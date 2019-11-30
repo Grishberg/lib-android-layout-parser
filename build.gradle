@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.grishberg'
-version '1.0.3'
+version '1.0.4'
 
 sourceCompatibility = 1.8
 
@@ -13,6 +13,7 @@ repositories {
     maven {
         url 'https://maven.google.com'
     }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
